@@ -1,12 +1,11 @@
-
+import CalculateGrade from './components/calculations/CalculateGrade';
 import './App.css'
-import CalculateItemPrice from './components/calculations/CalculateItemPrice'
 
 function App() {
   
   return (
     <>
-    <CalculateItemPrice />
+    <CalculateGrade studentScore={80} gradeItems={150} />
     </>
   )
 }
