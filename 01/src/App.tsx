@@ -1,11 +1,11 @@
-import CalculateGrade from './components/calculations/CalculateGrade';
+import CalculateGradeUI from './components/calculations/CalculateGradeUI';
 import './App.css'
 
 function App() {
   
   return (
     <>
-    <CalculateGrade studentScore={80} gradeItems={150} />
+    <CalculateGradeUI getNoItems={100} />
     </>
   )
 }
